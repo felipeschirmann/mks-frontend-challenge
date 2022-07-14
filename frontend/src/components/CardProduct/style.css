@@ -1,13 +1,12 @@
 .container-card {
-  height: 285px;
-  width: 200px;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
   border-radius: 8px;
   background-color: #fff;
 }
 .card {
-  display: flex;
-  flex-direction: column;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  align-items: center;
   padding: 20px 15px 10px 15px;
 }
 .container-name-price {
@@ -18,6 +17,7 @@
   justify-content: space-between;
 }
 .name {
+  padding-right: 20px;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
@@ -38,7 +38,4 @@
   font-size: 10px;
   line-height: 12px;
   color: #2c2c2c;
-}
-.button {
-  width: 100%;
 }
