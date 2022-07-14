@@ -1,0 +1,36 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding-left: 65px;
+}
+
+.container-logo {
+  display: flex;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  margin-right: 70px;
+  padding: 15px;
+  width: 90px;
+  height: 45px;
+  color: #000;
+  background-color: #fff;
+}
+
+.logo-part-01 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 19px;
+}
+
+.logo-part-02 {
+  font-weight: 300;
+  margin-top: 5px;
+  margin-left: 10px;
+}
