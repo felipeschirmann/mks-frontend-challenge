@@ -1,21 +1,23 @@
 import CardButton from "components/CardButton";
-import ProductImg from "assets/images/product.png";
+import { Product } from "types/Product/Product";
 import "./style.css";
 
-function CardProduct() {
+type Props = {
+  product: Product;
+};
+
+function CardProduct({ product }: Props) {
   return (
     <div className="container-card">
       <div className="card">
         <div className="photo">
-          <img src={ProductImg} alt="ProductImg" />
+          <img src={product.photo} alt={product.name} />
         </div>
         <div className="container-name-price">
-          <div className="name">Apple Watch Series 4 GPS</div>
-          <div className="price">R$399</div>
+          <div className="name">{product.name}</div>
+          <div className="price">{product.price}</div>
         </div>
-        <div className="description">
-          Redesigned from scratch and completely revised.
-        </div>
+        <div className="description">{product.description}</div>
       </div>
       <CardButton text="COMPRAR" />
     </div>
