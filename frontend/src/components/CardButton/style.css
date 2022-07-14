@@ -1,0 +1,20 @@
+.btn-bag {
+  height: 32px;
+  width: 100%;
+  border-radius: 0px 0px 8px 8px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.text-button {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  margin-left: 10px;
+}
+.container-button {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
