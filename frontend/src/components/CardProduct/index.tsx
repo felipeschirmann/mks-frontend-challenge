@@ -1,5 +1,5 @@
 import CardButton from "components/CardButton";
-import { Product } from "types/Product/Product";
+import { Product } from "types/Product";
 import "./style.css";
 
 type Props = {
@@ -15,7 +15,7 @@ function CardProduct({ product }: Props) {
         </div>
         <div className="container-name-price">
           <div className="name">{product.name}</div>
-          <div className="price">{product.price}</div>
+          <div className="price">R${product.price / 1}</div>
         </div>
         <div className="description">{product.description}</div>
       </div>
