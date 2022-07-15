@@ -52,3 +52,5 @@ Pontos a serem implementados:
 - Tela do Carrinho, não tive tempo para criar a tela mas já deixei toda a lógica pronta para a tela.
 
 "Gostei do desafio pois o carrinho é um solução que ainda não tinha pensado na solução."
+
+![Info](https://raw.githubusercontent.com/felipeschirmann/mks-frontend-challenge/main/print.png)
