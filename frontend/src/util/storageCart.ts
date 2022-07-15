@@ -26,11 +26,11 @@ export const getItensInCart = () => {
 
 export const getNumberOfItemInCart = (obj: Product) => {
   const cartWithItens = getCart().itens;
-  return cartWithItens.find((element) => element == obj) ?? 0;
+  return cartWithItens.find((element) => element === obj) ?? 0;
 };
 
 export const removeItemCart = (obj: Product) => {
-  if (getNumberOfItemInCart(obj) != 0) {
+  if (getNumberOfItemInCart(obj) !== 0) {
     localStorage.removeItem(JSON.stringify(obj));
   }
 };
