@@ -1,4 +1,4 @@
-import axios, { AxiosRequestConfig } from "axios";
+import axios from "axios";
 import CardProduct from "components/CardProduct";
 import Footer from "components/Footer";
 import Navbar from "components/Navbar";
@@ -28,12 +28,12 @@ const Home = () => {
       <Navbar />
       <div className="container">
         <div className="row">
-          {page?.products.map((obj) => (
+          {page?.products.map((product) => (
             <div
-              key={obj.id}
+              key={product.id}
               className="col-xl-3 col-md-6 container-card-product"
             >
-              <CardProduct product={obj} />
+              <CardProduct product={product} />
             </div>
           ))}
         </div>
