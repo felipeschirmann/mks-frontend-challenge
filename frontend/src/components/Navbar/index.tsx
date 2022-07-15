@@ -20,7 +20,7 @@ function Navbar() {
         <span className="logo-part-02">Sistemas</span>
       </div>
       <div className="cart">
-        <CartImg /> {cartContextData.itens || "0"}
+        <CartImg /> { cartContextData.itens > 0 ? cartContextData.itens : "0" }
       </div>
     </nav>
   );

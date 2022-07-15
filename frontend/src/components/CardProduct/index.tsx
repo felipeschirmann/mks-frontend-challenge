@@ -16,11 +16,12 @@ function CardProduct({ product }: Props) {
   const { handleSubmit } = useForm();
 
   const onSubmit = () => {
+    saveItemCart(product);
+    
     let numberItens = getCart().numberItens++;
     setCartContextData({
       itens: numberItens,
     });
-    saveItemCart(product);
   };
 
   return (
