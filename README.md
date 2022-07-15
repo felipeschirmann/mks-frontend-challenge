@@ -42,3 +42,13 @@ Faça o deploy!
 ---------------
 
 Ao finalizar, faça o deploy no lugar que te for mais confortável (exemplo: Vercel, Netlify, Amazon EC2, etc)
+
+
+[ Felipe Schirmann ]
+-Acessivel em: https://mks-frontend-challenge-1imjfft5y-felipeschirmann.vercel.app/
+
+Pontos a serem implementados:
+- Testes (Ainda não possuo conhecimento no que se refere a testes no frontend mas estou na trilha do estudo, caso fosse backend teria desenvolvido em Java e utilizado JUnit)
+- Tela do Carrinho, não tive tempo para criar a tela mas já deixei toda a lógica pronta para a tela.
+
+"Gostei do desafio pois o carrinho é um solução que ainda não tinha pensado na solução."
